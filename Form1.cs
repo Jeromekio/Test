@@ -23,7 +23,9 @@ namespace TestCef
         public void InitBrowser()
         {
             Cef.Initialize(new CefSettings());
-            browser = new ChromiumWebBrowser("http://192.168.0.54:808/start.html");
+            browser = new ChromiumWebBrowser("http://hao123.com");
+
+
             panel1.Controls.Add(browser);
             browser.Dock = DockStyle.Fill;
         }
